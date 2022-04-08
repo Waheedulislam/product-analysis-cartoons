@@ -1,0 +1,11 @@
+.line-chirt {
+    /* padding-left: 20px; */
+}
+
+.chart-style {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* align-items: center; */
+    margin-left: 10px;
+}
