@@ -1,0 +1,28 @@
+.total-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 30px;
+}
+
+.color1 {
+    font-size: 60px;
+}
+
+.btn-style {
+    background-color: rgb(252, 220, 249);
+    width: 100px;
+    height: 45px;
+    /* border-radius: 25px; */
+    color: rgb(250, 65, 231);
+    border: 0;
+}
+
+.btn-style:hover {
+    color: rgb(35, 60, 82);
+}
+
+.img-with img {
+    width: 600px;
+}
