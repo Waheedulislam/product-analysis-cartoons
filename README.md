@@ -3,7 +3,7 @@
 
 Click  here to Live-Site-link: https://melodic-kataifi-27b80e.netlify.app/.
 
-## This website details;
+## This website details:
 ***
 A list of cartoons used within the project and details:
 
