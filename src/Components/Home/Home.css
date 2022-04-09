@@ -11,16 +11,17 @@
 }
 
 .btn-style {
-    background-color: rgb(252, 220, 249);
+    background-color: rgb(248, 123, 148);
     width: 100px;
     height: 45px;
-    /* border-radius: 25px; */
-    color: rgb(250, 65, 231);
+    border-radius: 5px;
+    color: white;
     border: 0;
 }
 
 .btn-style:hover {
-    color: rgb(35, 60, 82);
+    color: black;
+    border: 2px solid black;
 }
 
 .img-with img {
@@ -37,4 +38,25 @@
     gap: 15px;
     margin: 70px;
     padding: 20px;
+}
+
+.btn-styles {
+    background-color: rgb(248, 123, 148);
+    border: 0;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-styles:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-center {
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
 }

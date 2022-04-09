@@ -2,7 +2,6 @@ import React from 'react';
 import useProducts from '../../hooks/useProducts';
 import img from '../../img/cartoon.jpg'
 import Cart from '../Cart/Cart';
-import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
     const [products, setProducts] = useProducts();
@@ -30,13 +29,15 @@ const Home = () => {
             </div>
             <div className="products-container">
                 {
-                    products.map(product => <Cart
+                    products.slice(0, 3).map(product => <Cart
                         key={product.id}
                         product={product}
                     ></Cart>)
                 }
             </div>
-            <button>See All Reviews</button>
+            <div className='btn-center'>
+                <button className='btn-styles'>See All Reviews</button>
+            </div>
         </div>
 
     );

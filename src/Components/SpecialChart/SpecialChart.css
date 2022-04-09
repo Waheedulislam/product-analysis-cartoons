@@ -1,0 +1,9 @@
+.chart-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+}
+
+.chart-style h1 {
+    text-align: center;
+}

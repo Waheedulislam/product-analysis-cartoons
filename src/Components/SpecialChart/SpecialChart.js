@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import './SpecialChart.css'
 
 const SpecialChart = () => {
     const [sell, setSell] = useState([])
@@ -9,7 +10,16 @@ const SpecialChart = () => {
             .then(data => setSell(data.data))
     }, [])
     return (
-        <div>
+        <div className='chart-style'>
+            <div>
+                <h1>MONTH WISE SELL</h1>
+                <LineChart width={500} height={500} data={sell}>
+                    <Line dataKey={'sell'}></Line>
+                    <XAxis dataKey={'month'}></XAxis>
+                    <YAxis ></YAxis>
+                    <Tooltip></Tooltip>
+                </LineChart>
+            </div>
             <div>
                 <h1>INVESTMENT VS REVENUE</h1>
                 <BarChart width={500} height={500} data={sell}>
@@ -22,7 +32,7 @@ const SpecialChart = () => {
 
             </div>
             <div>
-                <h1>AreaChart</h1>
+                <h1>INVESTMENT VS REVENUE</h1>
                 <AreaChart
                     width={500}
                     height={400}
