@@ -13,3 +13,42 @@
     border-radius: 8px;
     margin: 7px;
 }
+
+.product-name {
+    width: auto;
+    text-align: center;
+    margin-top: 0;
+    /* margin-bottom: 0; */
+}
+
+.people-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.people-style img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.rating-style {
+    text-align: center;
+}
+
+.icons-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.icon-style {
+    width: 90px;
+    padding-top: 3px;
+    display: flex;
+    color: goldenrod;
+}

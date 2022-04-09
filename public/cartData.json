@@ -2,60 +2,100 @@
     {
         "id": 4,
         "name": "Super Bear",
+        "people": "Joseph Gonzalez",
+        "rating": "5",
+        "details": "Super Bear Adventure is a 3D platformer game inspired by late 90s games. Explore 6 open world levels.",
+        "peopleImg": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         "img": "https://m.media-amazon.com/images/M/MV5BMDU3MzA1MDctNDU4OC00ZGU5LWFlNTUtNDk5ZTJkNjI5NDM3XkEyXkFqcGdeQXVyMjAxODEwNjU@._V1_.jpg",
         "price": "1000"
     },
     {
         "id": 5,
         "name": "Spies in Disguise",
+        "people": "Albert Dera",
+        "details": "The plot follows a secret agent (Smith) who is accidentally transformed into a pigeon by an intelligent young scientist",
+        "peopleImg": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "5",
         "img": "https://m.media-amazon.com/images/M/MV5BNzg1MzM3OWUtNjgzZC00NjMzLWE1NzAtOThiMDgyMjhhZDBhXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_FMjpg_UX1000_.jpg        ",
         "price": "1720"
     },
     {
         "id": 6,
         "name": "The Nut Job",
+        "people": "Jurica Koletić",
+        "details": "An incorrigibly self-serving exiled squirrel finds himself helping his former park brethren survive by raiding a nut store.",
+        "peopleImg": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "5",
         "img": "https://www.liveabout.com/thmb/HiKmFTriz9GQr-JxoToyFSDhtPQ=/338x500/filters:fill(auto,1)/TheNutJob-56a575333df78cf772887292.jpg",
         "price": "1900"
     },
     {
         "id": 7,
         "name": "Over The Hedge",
+        "people": "bruce mars",
+        "details": "Over The Hedge's moral about families looking out for each other, forgiveness and the .",
+        "peopleImg": "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "5",
         "img": "https://bilbr.com/images/covers/OvertheHedge2006.jpg",
         "price": "5430"
     },
     {
         "id": 8,
         "name": "Nut Job 2",
+        "people": "ian dooley",
+        "details": " In THE NUT JOB 2, Surly (voiced by Will Arnett), Andie (Katherine Heigl), and their gang of animal friends end up losing .",
+        "peopleImg": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "5",
         "img": "https://bestsimilar.com/img/movie/thumb/dc/40756.jpg",
         "price": "570"
     },
     {
         "id": 9,
         "name": "Legends of OZ",
+        "people": "Toa Heftiba",
+        "details": "Legends of Oz: Dorothy's Return is a 2013 American 3D computer-animated musical fantasy film.",
+        "peopleImg": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "rating": "5",
         "img": "https://m.media-amazon.com/images/I/91z27Dg0Q3L._SL1500_.jpg",
         "price": "970"
     },
     {
         "id": 10,
         "name": "Journey to OZ",
+        "people": "Seth Doyle",
+        "details": "Journey Back To Oz is a 1972 American animated adventure musical fantasy film produced by Filmation.",
+        "peopleImg": "https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=894&q=80",
+        "rating": "5",
         "img": "https://m.media-amazon.com/images/I/81L51lBnBRL._SL1500_.jpg",
         "price": "800"
     },
     {
         "id": 11,
         "name": "Scoob!",
+        "people": "Matheus Ferrero",
+        "details": " The film starts in the 90's where a Great Dane puppy (Frank Welker) steals a rack of gyros from a shop.",
+        "peopleImg": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "rating": "5",
         "img": "https://images.static-bluray.com/products/20/52156_2_front.jpg",
         "price": "750"
     },
     {
         "id": 12,
         "name": "Hotel Transylyania 3",
+        "people": "Brooke Cagle",
+        "details": "When the lonely Count Dracula goes on vacation with Mavis, his family and monster friends. ",
+        "peopleImg": "https://images.unsplash.com/photo-1496360166961-10a51d5f367a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "rating": "5",
         "img": "http://www.animationkolkata.com/blog/wp-content/uploads/2019/01/66D8BB8A-E4E8-4422-9242-603110084545_CEF10DF9-2DF6-4287-B5B0-4CDF297B7EC2_2018-11-14-T16-4-16.jpg",
         "price": "880"
     },
     {
         "id": 13,
         "name": "The Incredible",
+        "people": "Ivana Cajina",
+        "details": "That doesn't mean that the movie's creator, Brad Bird, has a family of superheroes, but if you look beyond .",
+        "peopleImg": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "rating": "5",
         "img": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg",
         "price": "1870"
     }

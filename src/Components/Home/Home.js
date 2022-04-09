@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 import img from '../../img/cartoon.jpg'
 import Cart from '../Cart/Cart';
@@ -36,7 +37,9 @@ const Home = () => {
                 }
             </div>
             <div className='btn-center'>
-                <button className='btn-styles'>See All Reviews</button>
+                <Link to='/review'>
+                    <button className='btn-styles'>See All Reviews</button>
+                </Link>
             </div>
         </div>
 
