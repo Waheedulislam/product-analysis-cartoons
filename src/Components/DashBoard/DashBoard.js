@@ -1,5 +1,4 @@
 import React from 'react';
-import { AreaChart } from 'recharts';
 // import AreaChart from '../AreaChart/AreaChart';
 import Chirt from '../Chirt/Chirt';
 import SpecialChart from '../SpecialChart/SpecialChart';

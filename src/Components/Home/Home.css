@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
-    margin: 30px;
+    padding: 60px;
+    margin: 40px;
 }
 
 .color1 {
@@ -25,4 +25,16 @@
 
 .img-with img {
     width: 600px;
+}
+
+.customer-title {
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 70px;
+    padding: 20px;
 }
